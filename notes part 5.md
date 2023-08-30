@@ -162,3 +162,7 @@ You can use dot notation to retrieve from the dictionary of arguments in your co
 ### Also watch [this video](https://www.youtube.com/watch?v=sJdqdGxRbXY&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=60) to know how to make the cli more interactive
 
 ### Cluster Modules
+
+These manage child processes in parallel. Master-child processes are an alternate to threads however they are more heavy.
+
+![Clusters](npm/Clusters.png)
