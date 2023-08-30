@@ -59,11 +59,11 @@ simply run
 
 It shows the output in the terminal right away
 
-checkout [watch.js](watch.js) file for an example.
+checkout [ES6/watch.js](ES6/watch.js) file for an example.
 
 ### Built-in Modules
 
-checkout [path.js](path.js) file for an example.
+checkout [ES6/path.js](ES6/path.js) file for an example.
 
 ```js
 
@@ -93,19 +93,19 @@ greetPerson(greet)
 
 ### Events Module
 
-check [events.js](events.js)
+check [ES6/events.js](ES6/events.js)
 
 
 ### Extending Events Module
 
-check [extended_events.js](extended_events.js)
+check [ES6/extended_events.js](ES6/extended_events.js)
 
 Do note many classes like fs and http use extends on the EventEmitter class to add events functionality.
 
 
 ### Streams and Buffers
 
-check [buffers.js](buffers.js) to see how streams and buffers work.
+check [ES6/buffers.js](ES6/buffers.js) to see how streams and buffers work.
 
 ### Synchronous vs Async Javascript
 
@@ -115,28 +115,28 @@ We use async/await, promises to make code look synchronous but it is still async
 
 The differences between asynchronous and synchronous include: Async is multi-thread, which means operations or programs can run in parallel. Sync is single-thread, so only one operation or program will run at a time. Async is non-blocking, which means it will send multiple requests to a server.
 
-![Image](sync_async.png)
+![Image](ES6/sync_async.png)
 
 
 ### Synchronous and Asynchronous File Reading
 
-check out [syncfiles.js](syncfiles.js)
+check out [ES6/syncfiles.js](ES6/syncfiles.js)
 
 ### Sync vs Async File Writing
 
-checkout [filewrite.js](filewrite.js) to see how synchronous and asynchronous file writing works.
+checkout [ES6/filewrite.js](ES6/filewrite.js) to see how synchronous and asynchronous file writing works.
 
 ** Do note the non promise version of file reading and writing is much faster**
 ** but promise syntax is easier **
 
 ### File Reading and Writing With Promises
 
-check out [promisefiles.js](promisefiles.js) to see how to read and write files using promises.
+check out [ES6/promisefiles.js](ES6/promisefiles.js) to see how to read and write files using promises.
 
 
 ### Streams and Pipes
 
-check out [streams.js](streams.js)
+check out [ES6/streams.js](ES6/streams.js)
 They are based on moving data in chunks from one place to another. 
 
 ```js
@@ -180,3 +180,5 @@ Pipes can even be chained such that output will be supplied to the next pipe
 ```js
 someobject.pipe('...').pipe('...').pipe('...')....
 ```
+
+

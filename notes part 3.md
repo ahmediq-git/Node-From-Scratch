@@ -1,6 +1,6 @@
 ### Node server with http module
 
-check out [httpserver.js](httpserver.js) to see how to implement a server with the http module.
+check out [ES6/httpserver.js](ES6/httpserver.js) to see how to implement a server with the http module.
 ```js
 const http =  require('node:http')
 
@@ -75,12 +75,12 @@ const server = http.createServer((req, res)=>{
 
 ## Dynamic Values in server
 
-check out [dynamichttpserver.js](dynamichttpserver.js) to see how to inject values in the dom with nodejs
+check out [ES6/dynamichttpserver.js](ES6/dynamichttpserver.js) to see how to inject values in the dom with nodejs
 Basically a webpage with variables
 
 ### Dynamic routes with nodejs rendered site
 
-check out [dynamicroutes.js](dynamicroutes.js)
+check out [ES6/dynamicroutes.js](ES6/dynamicroutes.js)
 
 
-##### Alot of the things above is manual work and they can be used for GET, POST requests etc by setting the relevant routes
+##### Alot of the things above is manual work and they can be used for GET, POST requests etc by setting the relevant routes, but it is better to use a framework that does all this for us.
