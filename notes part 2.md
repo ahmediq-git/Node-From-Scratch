@@ -124,6 +124,8 @@ check out [ES6/syncfiles.js](ES6/syncfiles.js)
 
 ### Sync vs Async File Writing
 
+Synchronous is sequential while Async is not.
+
 checkout [ES6/filewrite.js](ES6/filewrite.js) to see how synchronous and asynchronous file writing works.
 
 ** Do note the non promise version of file reading and writing is much faster**

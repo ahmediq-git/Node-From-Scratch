@@ -8,6 +8,8 @@ We can integrate V8 in a C++ application and build further Javascript/ECMAscript
 
 File handling was supported in Cpp but not in js, so Node makes Js implement file handling
 
+Nodejs uses the V8 engine
+
 ## Browser vs Node
 
 Node does not have the document features like document, Web API, Cookies like Browser.
